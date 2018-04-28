@@ -25,9 +25,9 @@ from django.conf.global_settings import *
 APP_ID = 'bkpermission'
 APP_TOKEN = '18080dcb-9f9c-405e-b6da-aaf7c3e3e647'
 # 蓝鲸智云开发者中心的域名，形如：http://paas.bking.com
-BK_PAAS_HOST = 'http://paas.blueking.com:88'
+BK_PAAS_HOST = 'http://paas.blueking.com:80'
 
-BK_PLAT_HOST = 'http://paas.blueking.com:88'
+BK_PLAT_HOST = 'http://paas.blueking.com:80'
 #本地开发环境域名(端口)
 LOCAL_DEV_DOMAIN = 'http://dev.blueking.com:8000/'
 
