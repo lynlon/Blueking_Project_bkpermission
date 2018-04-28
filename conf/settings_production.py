@@ -2,6 +2,7 @@
 """
 用于正式环境的全局配置
 """
+'''
 from settings import APP_ID
 
 
@@ -17,4 +18,14 @@ DATABASES = {
         'HOST': '10.168.26.196',                   		   # 数据库HOST
         'PORT': '3306',                        # 默认3306
     },
+}
+'''
+import os
+from settings import BASE_DIR
+DATABASES = {
+	'default': {
+		'ENGINE': 'django.db.backends.sqlite3',
+		'NAME': os.path.join(BASE_DIR,'db.sqlite3'),
+	}
+
 }
